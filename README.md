@@ -1,2 +1,2 @@
-# Java-HundirLaFlotaOO
-Práctica Programación - Juego Hundir la flota
+# Java-HundirLaFlota
+Practica programación - Hundir la flota
