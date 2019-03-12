@@ -23,9 +23,9 @@ public class HundirLaFlota {
     public static void main(String[] args) throws InterruptedException {
         // TODO code application logic here
         Scanner leer = new Scanner(System.in);
-        ArrayList<Jugador> j = new ArrayList<>();
-        j.add(new Jugador()); // añadimos 2 jugadores
-        j.add(new Jugador());
+        ArrayList<JugadorHumano> j = new ArrayList<>();
+        j.add(new JugadorHumano()); // añadimos 2 jugadores
+        j.add(new JugadorHumano());
         boolean salir = false;
 
         // Variables de control de inicio de partida
@@ -90,8 +90,8 @@ public class HundirLaFlota {
                     clrscr();
                     if (ini && prep1 && prep2) { //solo se puede empezar la partida si tablero inicializado y jugadores preparados
                         boolean finpartida = false;
-                        Jugador atacante;
-                        Jugador defensor;
+                        JugadorHumano atacante;
+                        JugadorHumano defensor;
                         int turno = 0;
                         System.out.println("\n  Empieza la partida...");
                         TimeUnit.SECONDS.sleep(1);
